@@ -1,12 +1,41 @@
 
-## Cloning and starting application
-1. - git clone https://github.com/iamVaibhav100/react-notes-app
-1. - cd react-notes-app
-2. - npm install
-3. - npm run server //JSON SERVER(if you have'nt installed json server just run npm install -g json-server)
-4. - npm start  //REACT SERVER
+# I-do
+
+React application that uses json server to store all your important tasks.
 
 
-# Notes List
-<img src="./Notes.PNG">  
+
+## Run the app
+
+clone the project
+
+```bash
+  git clone https://github.com/iamVaibhav100/react-notes-app.git
+```
+move to the directory
+
+```bash
+  cd react-notes-app
+```
+Install dependencies
+
+```bash
+  npm install
+```
+Run the application!
+
+```bash
+  npm run server
+```
+This cmd starts json server, if you have not installed, just run npm i -g json-server
+
+```bash
+  npm start
+```
+This starts the React server.
+## Demo
+
+<img src = "./notes-app.png"/>
+
+Made with ❤️ by [Vaibhav](https://iamvaibhav.netlify.app/)
 
