@@ -85,7 +85,7 @@ const Note = ({ match, history }) => {
                 )}
 
             </div>
-            <textarea onChange={(e) => { setNote({ ...note, 'body': e.target.value }) }} placeholder="Edit note" value={note?.body}></textarea>
+            <textarea onChange={(e) => { setNote({ ...note, 'body': e.target.value }) }} placeholder="Title" value={note?.body}></textarea>
         </div>
     )
 }

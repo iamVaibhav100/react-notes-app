@@ -3,7 +3,7 @@
 
 
 :root {
-  --color-main: #f68657;
+  --color-main: #4AE54A;
   --color-text: #383a3f;
   --color-dark: #1f2124;
   --color-gray: #677;
@@ -15,7 +15,7 @@
 }
 
 .dark {
-  --color-main: #f68657;
+  --color-main: #4AE54A;
   --color-text: #d6d1d1;
   --color-dark: #f5f6f7;
   --color-gray: #999;
@@ -161,8 +161,7 @@ a {
 
 .notes-list-item p span {
   color: var(--color-gray);
-  display: inline-block;
-  margin-left: 7.5rem;
+  display: block;
 }
 
 .notes-list-item p {
@@ -246,10 +245,4 @@ a {
 
 .note textarea::-webkit-scrollbar {
   display: none;
-}
-
-@media (max-width: 473px) {
-  .notes-list-item p span {
-    margin-left: 4rem;
-  }
 }

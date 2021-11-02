@@ -25,8 +25,8 @@ let getContent = (note) => {
     content = content.replaceAll(title, '')
 
     //Slice content and add three dots in over 45 characters to show there is more
-    if (content.length > 30) {
-        return content.slice(0, 30) + '. . .'
+    if (content.length > 50) {
+        return content.slice(0, 50) + '. . .'
     } else {
         return content
     }
